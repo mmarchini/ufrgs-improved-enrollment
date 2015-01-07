@@ -16,7 +16,7 @@ module.exports = function(grunt) {
         src: [
             'lib/index.js'
         ],
-        dest: 'dist/<%= pkg.name %>.js'
+        dest: 'dist/<%= pkg.name %>.user.js'
       }
     },
     jshint: {
